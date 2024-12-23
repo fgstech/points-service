@@ -1,0 +1,19 @@
+{
+  "name": "points",
+  "version": "0.1.1",
+  "description": "Wallet points",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Luis Vilches",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3",
+    "uuid": "^11.0.2"
+  }
+}
