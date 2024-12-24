@@ -36,7 +36,7 @@ class ApiKeyService {
         if (!existingKey) {
             console.log('No default API Key found. Generating one...');
             const keys = await this.getOrCreateDefaultApiKey(tenantId, defaultUserId);
-            console.log('Default API Key and Secret Key created:', keys);
+            console.log('Default API Key and Secret Key created');
         } else {
             console.log('Default API Key already exists.');
         }
